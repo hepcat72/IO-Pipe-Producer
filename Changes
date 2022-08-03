@@ -65,3 +65,7 @@ Revision history for Perl extension IO::Pipe::Producer.
 2.02  2022/08/01 by robleach
 
     Added ability to retrieve exit code of the child process using $?.
+
+2.03  2022/08/03 by robleach
+
+    Minor documentation changes.

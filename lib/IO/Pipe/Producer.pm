@@ -8,7 +8,7 @@ use Carp;
 our @ISA = qw(IO::Pipe);
 use base qw(IO::Pipe);
 
-our $VERSION = '2.02';
+our $VERSION = '2.03';
 
 #NOTICE
 #
@@ -297,7 +297,7 @@ IO::Pipe::Producer - Perl extension for IO::Pipe
 
   #Read the handles in the same way as example 2, then...
 
-  Example 4 (Grab the standard output/error of a system call and evaluate the exit status):
+  #Example 4 (Grab the standard output/error of a system call and evaluate the exit status):
 
   use IO::Pipe::Producer;
   $obj = new IO::Pipe::Producer();
